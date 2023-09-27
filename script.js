@@ -1,3 +1,5 @@
+
+
 const lists__pokemons = document.getElementById('lists__pokemons')
 const buttons = document.getElementById('buttons')
 
@@ -26,6 +28,7 @@ buttons.innerHTML=btnPrevious+"  "+ "  "+btnNext
 
 GetPokemons(urlPokemon)
 const DataPokemons =  async(data)=>{
+  
     lists__pokemons.innerHTML=''
     try{
         for(let index of data){
